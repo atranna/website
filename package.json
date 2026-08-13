@@ -2,13 +2,17 @@
   "name": "website",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://atranna.github.io/website",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d .next"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "next": "16.3.0",
     "react": "19.2.8",
     "react-dom": "19.2.8"
