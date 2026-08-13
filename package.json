@@ -2,7 +2,7 @@
   "name": "website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://atranna.github.io/website",
+  "homepage": "https://atranna.com",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
